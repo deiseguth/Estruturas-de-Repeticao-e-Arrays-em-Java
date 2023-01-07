@@ -17,8 +17,10 @@ while(true){
 
     System.out.println("Idade: ");
     idade = scan.nextInt();
+    if (idade == -1)
+        break;
 }
-    System.out.println("Parou aqui");
+    System.out.println("Sistema encerrado");
         }
     }
 }
